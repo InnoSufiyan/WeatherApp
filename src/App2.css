@@ -1,0 +1,245 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.Thunderstorm {
+    height: 650px;
+    width: 400px;
+    background: url('https://i.gifer.com/Rnim.gif') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.Haze {
+    height: 650px;
+    width: 400px;
+    background: url('https://i.gifer.com/7Z6Q.gif') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.Smoke {
+    height: 650px;
+    width: 400px;
+    background: url('https://i.gifer.com/GCup.gif') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.Rain {
+    height: 650px;
+    width: 400px;
+    background: url('https://i.gifer.com/Ae6H.gif') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.Clouds {
+    height: 650px;
+    width: 400px;
+    background: url('https://i.gifer.com/bF4.gif') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.Clear {
+    height: 650px;
+    width: 400px;
+    background: url('https://i.gifer.com/XFbw.gif') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.Drizzle {
+    height: 650px;
+    width: 400px;
+    background: url('https://i.gifer.com/7scx.gif') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.Mist {
+    height: 650px;
+    width: 400px;
+    background: url('https://i.gifer.com/1PSm.gif') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.weather video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.Mist .text {
+    color: black;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.Clouds .text {
+    color: black;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.text {
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cityName {
+    font-size: 40px;
+}
+
+.currentweather {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.temp {
+    font-size: 100px;
+    font-weight: lighter;
+    position: relative;
+    
+}
+.country {
+    font-size: 30px;
+    /* font-weight: lighter; */
+}
+
+h1, h2 {    
+    margin: 0;
+    padding: 0;
+}
+
+.degree {
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+}
+
+.Mist .extraDetails {
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+.Clouds .extraDetails {
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+.Smoke .extraDetails {
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+.extraDetails {
+    color: rgb(255, 255, 255);
+    z-index: 10;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 20vh;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.degree2 {
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+
+.extraDetails h2 {
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.searchArea {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    z-index: 10;
+    color: wheat;
+}
+
+
+@media (max-width: 375px) {
+    .extraDetails {
+        height: 30vh;
+    }
+}
+@media (max-width: 320px) {
+    .extraDetails {
+        height: 50vh;
+    }
+    .Rain, .Haze, .Thunderstorm, .Smoke, .Clouds, .Clear, .Drizzle, .Mist {
+        height: 750px;
+    }
+}
+
+@media (max-width: 800px) {
+    .Rain, .Haze, .Thunderstorm, .Smoke, .Clouds, .Clear, .Drizzle, .Mist {
+        height: 800px;
+    }
+    .extraDetails {
+        height: 50vh;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .Rain, .Haze, .Thunderstorm, .Smoke, .Clouds, .Clear, .Drizzle, .Mist {
+        height: 800px;
+    }
+    .extraDetails {
+        height: 55vh;
+    }
+}
